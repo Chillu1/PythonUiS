@@ -35,7 +35,7 @@ class Tur:
         self.posisjoner.append(posisjon)
 
     def add_posisjon_koordinater(self, x_koordinat, y_koordinat, hoyde):
-        self.posisjoner.append(Posisjon(x_koordinat, x_koordinat, hoyde))
+        self.posisjoner.append(Posisjon(x_koordinat, y_koordinat, hoyde))
 
     def hoydemeter(self):
         resultat = 0.0
